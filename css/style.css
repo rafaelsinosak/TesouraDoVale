@@ -1,0 +1,223 @@
+/* - INDEX PAGE - */
+.miniLogo 
+{
+    background-image: url("../images/miniLogo.png");
+    height: 50px;
+    width: 150px;
+    background-size: 115px;
+    background-repeat: no-repeat;
+    background-position: 8px;
+}
+
+.slideOne
+{background-image: url("../images/banner1.png");}
+
+.slideTwo
+{background-image: url("../images/banner2.png");}
+
+.slideThree
+{background-image: url("../images/banner3.png");}
+
+.slideFour
+{background-image: url("../images/banner4.png");}
+
+#nuvem
+{
+  background-image: url("../images/nuvem.png");
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  margin-top: 3px;
+  background-size: 30px;
+}
+
+#form
+{
+  background-image: url("../images/form.png");
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  margin-top: 3px;
+  background-size: 30px;
+}
+
+#papel
+{
+  background-image: url("../images/papel.png");
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  margin-top: 3px;
+  background-size: 30px; 
+}
+
+.h4fixed{margin-left: 45px;}
+
+.breadcrumb a{color: #A2A2A2 !important;}
+.breadcrumb a:hover{color: #1d4c90 !important;}
+.breadcrumb .active {color: black !important;}
+
+.whiteP{color: white;}
+.nuvemDiv{background-color: #3F9BDC !important;}
+.formDiv{background-color: #f04d1f !important;}
+.dataDiv{background-color: #cd1033 !important;}
+.impDiv{background-color: #226829 !important;}
+.dispDiv{background-color: #f68620 !important;}
+
+/* - ABOUT PAGE - */
+
+#serv1, #serv2, #serv3, #serv4, #serv5, #serv6, #serv7, #serv8, #serv9, #serv10, #serv11, #serv12, #serv13{cursor: pointer;}
+
+.aboutTitle{
+	font-weight: bold;
+}
+
+.aboutContainer{
+	background-color: #e8e8e8;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pointBall{  
+  background-repeat: no-repeat;
+  background-color: rgb(51, 122, 183);
+  height: 50px;
+  border: 0px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  width: 50px !important;
+}
+
+.psico{
+  background-image: url("../images/psicodiagnosticoIcon.png");
+  background-position: 9px 9px;
+}
+
+.whatsapp{
+  background-image: url("../images/whatsIcon.png");
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+
+.linkedin{
+  background-image: url("../images/in.png");
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+}
+	
+.facebook{
+  background-image: url("../images/fb.png");
+    background-color: transparent;
+    width: 16px;
+    height: 16px;
+}
+
+.couple{
+  background-image: url("../images/coupleIcon.png");
+  background-position: 8px 8px;
+}
+
+.vocacion{
+  background-image: url("../images/vocacionalIcon.png");
+  background-position: 9px 9px;
+}
+
+.clinicaPB{
+  background-image: url("../images/clinicaPaisBebesIcon.png");
+  background-position: 9px 9px;
+}
+
+.autismo{
+  background-image: url("../images/quebraCabecaIcon.png");
+  background-position: 9px 9px;
+}
+
+.atrasoDev{
+  background-image: url("../images/desenvolvimentoIcon.png");
+  background-position: 9px 9px;
+}
+
+.psicoTerapia{
+  background-image: url("../images/psicoterapyIcon.png");
+  background-position: 9px 9px;
+}
+
+.neuro{
+  background-image: url("../images/neuroPsicologiaIcon.png");
+  background-position: 9px 9px;
+}
+
+.motora{
+  background-image: url("../images/motoraIcon.png");
+  background-position: 9px 9px;
+}
+
+.intervencao{
+  background-image: url("../images/intervencaoIcon.png");
+  background-position: 9px 9px;
+}
+
+.paisFilhos{
+  background-image: url("../images/paisFilhosIcon.png");
+  background-position: 9px 9px;
+}
+
+.filhosPais{
+  background-image: url("../images/FilhosPaisIcon.png");
+  background-position: 9px 9px;
+}
+
+.baby{background-color: #D42A2A;}
+.young{background-color: #D0B400;}
+.old{background-color: #3F9BDC;}
+
+body {font-family: "Lato", sans-serif;}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
